@@ -1,0 +1,210 @@
+================================================================================
+FGS Continuous (Tue, November 29, 2016 09:32:11 PM)
+================================================================================
+
+Runtime Parameters:
+verbose = true
+number of threads = 1
+
+Dataset:
+file = train_continues.csv
+delimiter = comma
+cases read in = 188318
+variables read in = 15
+
+Algorithm Parameters:
+penalty discount = 4.000000
+max degree = -1
+faithfulness assumed = true
+
+Data Validations:
+ensure variable names are unique = true
+ensure variables have non-zero variance = true
+
+Elapsed initializeForwardEdgesFromEmptyGraph = 63 ms
+1. INSERT cont12 --> cont11 [] 845841.9596337358  degree = 1 indegree = 1
+2. INSERT cont9 --> cont1 [] 376686.327079152  degree = 1 indegree = 1
+3. INSERT cont10 --> cont6 [] 285352.85383432603  degree = 1 indegree = 1
+4. INSERT cont6 --> cont13 [] 205548.76697886188  degree = 2 indegree = 1
+5. INSERT cont10 --> cont1 [] 199682.85112369095  degree = 2 indegree = 0
+6. INSERT cont12 --> cont6 [] 180414.30462207203  degree = 3 indegree = 0
+7. INSERT cont7 --> cont6 [cont13] 165038.89687889128  degree = 4 indegree = 0
+--- Directing cont13 --> cont6
+8. INSERT cont8 --> cont4 [] 61701.24454302108  degree = 4 indegree = 2
+9. INSERT cont7 --> cont12 [] 50159.71870430873  degree = 4 indegree = 2
+10. INSERT cont8 --> cont13 [] 48428.70812098542  degree = 4 indegree = 2
+11. INSERT cont13 --> cont9 [] 45949.11223292956  degree = 4 indegree = 0
+12. INSERT cont3 --> cont2 [] 43820.65641001833  degree = 4 indegree = 0
+13. INSERT cont13 --> cont3 [cont2] 49727.630128285615  degree = 4 indegree = 0
+--- Directing cont2 --> cont3
+14. INSERT cont4 --> cont6 [] 36430.27492267627  degree = 5 indegree = 0
+15. INSERT cont4 --> cont3 [] 27468.91639107815  degree = 5 indegree = 0
+16. INSERT cont3 --> cont1 [] 21313.960542903864  degree = 5 indegree = 0
+17. INSERT cont13 --> cont7 [] 16304.006455101771  degree = 5 indegree = 0
+18. INSERT cont11 --> cont3 [] 15799.15624079411  degree = 5 indegree = 0
+19. INSERT cont6 --> cont3 [] 18442.457284197793  degree = 6 indegree = 0
+20. INSERT cont7 --> cont10 [] 12476.27004942263  degree = 6 indegree = 0
+21. INSERT cont7 --> cont5 [] 12039.366467633285  degree = 6 indegree = 0
+22. INSERT cont13 --> cont12 [] 11254.388259100378  degree = 6 indegree = 0
+23. INSERT cont13 --> cont10 [] 10979.763717059162  degree = 7 indegree = 0
+24. INSERT cont12 --> cont1 [] 10731.328540103394  degree = 7 indegree = 0
+25. INSERT cont7 --> cont3 [] 9870.518989662174  degree = 7 indegree = 0
+26. INSERT cont7 --> cont4 [cont8] 9854.930753780995  degree = 7 indegree = 0
+--- Directing cont8 --> cont4
+27. INSERT cont13 --> cont1 [] 9298.459982744069  degree = 8 indegree = 0
+28. INSERT cont2 --> cont5 [cont7] 8471.616351062432  degree = 8 indegree = 0
+--- Directing cont7 --> cont5
+29. INSERT cont8 --> cont9 [] 8426.220223105745  degree = 8 indegree = 0
+30. INSERT cont8 --> cont1 [] 7769.695871089469  degree = 8 indegree = 0
+31. INSERT cont11 --> cont10 [] 6415.301462353673  degree = 8 indegree = 0
+32. INSERT cont8 --> cont10 [] 5932.475573514821  degree = 8 indegree = 0
+33. INSERT cont5 --> cont9 [] 5563.552967492025  degree = 8 indegree = 0
+34. INSERT cont2 --> cont12 [] 5107.841735813534  degree = 8 indegree = 0
+35. INSERT cont6 --> cont1 [] 4981.844294612412  degree = 8 indegree = 0
+36. INSERT cont7 --> cont1 [] 16415.87024341279  degree = 8 indegree = 0
+37. INSERT cont4 --> cont10 [] 4714.124577084207  degree = 8 indegree = 0
+38. INSERT cont2 --> cont8 [cont13] 3883.3817163523054  degree = 8 indegree = 0
+--- Directing cont13 --> cont8
+39. INSERT cont2 --> cont10 [] 3817.0749011295848  degree = 8 indegree = 0
+40. INSERT cont2 --> loss [] 3761.7461633880157  degree = 8 indegree = 1
+41. INSERT cont5 --> cont4 [] 3570.309367696056  degree = 8 indegree = 0
+42. INSERT cont4 --> cont9 [] 3277.105480044149  degree = 8 indegree = 0
+43. INSERT loss --> cont7 [cont13] 2980.9416491669836  degree = 9 indegree = 0
+--- Directing cont13 --> cont7
+44. INSERT cont7 --> cont11 [] 2723.6756212986074  degree = 10 indegree = 0
+45. INSERT cont6 --> cont11 [] 3256.491839442635  degree = 10 indegree = 0
+46. INSERT cont8 --> cont3 [] 2222.24953242403  degree = 10 indegree = 0
+47. INSERT cont10 --> cont9 [] 2146.5801248550415  degree = 10 indegree = 0
+48. INSERT cont2 --> cont9 [] 3397.877575177932  degree = 10 indegree = 0
+49. INSERT cont2 --> cont11 [] 1862.3358588009141  degree = 10 indegree = 0
+50. INSERT cont8 --> cont6 [] 1773.2905799660366  degree = 10 indegree = 0
+51. INSERT cont6 --> cont9 [] 1705.8907243325375  degree = 10 indegree = 0
+52. INSERT cont5 --> cont3 [] 1639.5467419235501  degree = 10 indegree = 0
+53. INSERT cont2 --> cont1 [] 1308.1379448544467  degree = 10 indegree = 0
+54. INSERT cont5 --> cont1 [] 1647.7526270825183  degree = 10 indegree = 0
+55. INSERT cont8 --> cont12 [] 1073.3795519121923  degree = 10 indegree = 0
+56. INSERT cont8 --> cont11 [] 1008.581474556122  degree = 10 indegree = 0
+57. INSERT cont9 --> cont14 [] 989.794782304205  degree = 10 indegree = 0
+58. INSERT cont11 --> cont1 [] 823.3053858971689  degree = 11 indegree = 10
+59. INSERT cont2 --> cont4 [] 753.5066947601736  degree = 11 indegree = 10
+60. INSERT cont3 --> cont9 [] 603.0505433299113  degree = 11 indegree = 10
+61. INSERT cont7 --> cont9 [] 364.1696662486065  degree = 11 indegree = 10
+62. INSERT cont5 --> cont10 [] 337.72595225740224  degree = 11 indegree = 10
+63. INSERT cont2 --> cont14 [] 304.81691996299196  degree = 11 indegree = 10
+64. INSERT cont13 --> cont4 [] 267.61668714659754  degree = 11 indegree = 10
+65. INSERT cont1 --> cont14 [] 258.8132463594666  degree = 12 indegree = 10
+66. INSERT cont12 --> cont9 [] 241.4414008532185  degree = 12 indegree = 11
+67. INSERT cont13 --> cont11 [] 238.87276124744676  degree = 12 indegree = 11
+68. INSERT cont11 --> cont9 [] 213.29896761663258  degree = 13 indegree = 12
+69. INSERT cont5 --> cont12 [cont11] 201.1370316192042  degree = 13 indegree = 12
+--- Directing cont11 --> cont12
+70. INSERT cont4 --> cont12 [] 201.0005190509837  degree = 13 indegree = 12
+71. INSERT loss --> cont4 [] 149.3317808317952  degree = 13 indegree = 12
+72. INSERT loss --> cont11 [] 144.0475880249869  degree = 13 indegree = 12
+73. INSERT cont7 --> cont2 [] 141.69225703179836  degree = 13 indegree = 12
+74. INSERT cont12 --> cont10 [] 116.91935769096017  degree = 13 indegree = 12
+75. INSERT loss --> cont6 [] 55.578218181966804  degree = 13 indegree = 12
+76. INSERT loss --> cont14 [] 50.73184021585621  degree = 13 indegree = 12
+77. INSERT cont6 --> cont14 [] 50.13410321425181  degree = 13 indegree = 12
+78. INSERT cont12 --> cont14 [] 205.34540563402697  degree = 13 indegree = 12
+79. INSERT cont13 --> cont14 [] 173.9887532822322  degree = 13 indegree = 12
+80. INSERT cont4 --> cont11 [] 37.97221591323614  degree = 13 indegree = 12
+81. INSERT loss --> cont12 [cont10] 37.47118395729922  degree = 13 indegree = 7
+--- Directing cont10 --> cont12
+82. INSERT loss --> cont10 [] 19.525976253673434  degree = 13 indegree = 0
+83. INSERT loss --> cont8 [] 4.9473545181099325  degree = 13 indegree = 0
+82. DELETE cont11-->cont10 H = [] NaYX = [cont12] diff = [cont12] (42.16140704206191) 
+83. INSERT cont2 --> cont6 [] 896.6378691882128  degree = 13 indegree = 0
+84. INSERT loss --> cont9 [] 265.4869622802362  degree = 14 indegree = 13
+85. INSERT cont5 --> cont8 [] 109.92968869453762  degree = 14 indegree = 13
+84. DELETE cont8-->cont11 H = [cont6] NaYX = [cont6] diff = [] (46.96584226679988) 
+--- Directing cont6 --- cont11 to cont11 --> cont6
+
+Graph Nodes:
+cont1,cont2,cont3,cont4,cont5,cont6,cont7,cont8,cont9,cont10,cont11,cont12,cont13,cont14,loss
+
+Graph Edges:
+1. cont1 --> cont14
+2. cont1 --> cont9
+3. cont10 --> cont1
+4. cont10 --> cont9
+5. cont11 --> cont1
+6. cont11 --> cont12
+7. cont11 --> cont3
+8. cont11 --> cont6
+9. cont11 --> cont9
+10. cont12 --> cont1
+11. cont12 --> cont10
+12. cont12 --> cont14
+13. cont12 --> cont9
+14. cont13 --> cont1
+15. cont13 --> cont10
+16. cont13 --> cont11
+17. cont13 --> cont12
+18. cont13 --> cont14
+19. cont13 --> cont3
+20. cont13 --> cont4
+21. cont13 --> cont6
+22. cont13 --> cont7
+23. cont13 --> cont8
+24. cont13 --> cont9
+25. cont2 --> cont1
+26. cont2 --> cont10
+27. cont2 --> cont11
+28. cont2 --> cont12
+29. cont2 --> cont14
+30. cont2 --> cont3
+31. cont2 --> cont4
+32. cont2 --> cont5
+33. cont2 --> cont6
+34. cont2 --> cont8
+35. cont2 --> cont9
+36. cont3 --> cont1
+37. cont3 --> cont9
+38. cont4 --> cont10
+39. cont4 --> cont11
+40. cont4 --> cont12
+41. cont4 --> cont3
+42. cont4 --> cont6
+43. cont4 --> cont9
+44. cont5 --> cont1
+45. cont5 --> cont10
+46. cont5 --> cont12
+47. cont5 --> cont3
+48. cont5 --> cont4
+49. cont5 --> cont8
+50. cont5 --> cont9
+51. cont6 --> cont1
+52. cont6 --> cont10
+53. cont6 --> cont12
+54. cont6 --> cont14
+55. cont6 --> cont3
+56. cont6 --> cont9
+57. cont7 --> cont1
+58. cont7 --> cont10
+59. cont7 --> cont11
+60. cont7 --> cont12
+61. cont7 --> cont2
+62. cont7 --> cont3
+63. cont7 --> cont4
+64. cont7 --> cont5
+65. cont7 --> cont6
+66. cont7 --> cont9
+67. cont8 --> cont1
+68. cont8 --> cont10
+69. cont8 --> cont12
+70. cont8 --> cont3
+71. cont8 --> cont4
+72. cont8 --> cont6
+73. cont8 --> cont9
+74. cont9 --> cont14
+75. loss --> cont10
+76. loss --> cont11
+77. loss --> cont12
+78. loss --> cont14
+79. loss --> cont2
+80. loss --> cont4
+81. loss --> cont6
+82. loss --> cont7
+83. loss --> cont8
+84. loss --> cont9
